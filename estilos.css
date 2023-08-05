@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background:black
+    
+}
+.barra-menu{
+    width: 900px;
+    margin: 0 auto;
+
+}
+header {
+    background:black;
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+    position: fixed;
+
+
+}
+nav{
+    float: right;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 75px;
+    float: left;
+    padding: 12px 0;
+    position: relative;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    
+}
+nav ul li a::before{
+    display: block;
+    content:'';
+    width: 0% ;
+    background:#40C057;
+    height: 5px;
+    top:0;
+    position: absolute;
+    transition: width 0.5s, box-shadow 0.25s;
+    
+
+}
+nav ul li a:hover::before{
+    
+    width: 100%;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    padding: 7px; 
+}
+
+.barra-2{
+    padding: 50px;
+    color: aliceblue;
+    font-family: 'Bevan', cursive;
+    font-family: 'Handjet', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Serif Vithkuqi', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    
+}
+.nombre{
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 17ch;
+    animation:  typing 2s steps(12), blink .5s infinite step-end alternate;
+    overflow:hidden;
+    color:#40C057;
+    font-family: 'Bevan', cursive;
+    font-family: 'Handjet', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Serif Vithkuqi', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 35px;
+}
+.verde{
+    color:#40C057
+}
+@keyframes typing {
+    from {width: 0;}
+
+
+}
+@keyframes blink{
+    50% { border-color: transparent}
+}
+.container{
+    display: flex;
+    padding: 50px;
+    
+    
+}
+#foto-amin{
+    height: 450px;
+    width: 335px;
+    -webkit-filter: grayscale(30%);
+    filter: grayscale(90px);
+    
+    
+    
+    
+}
+.iconos-social1{
+    text-decoration: none;
+    
+}
+.iconos-social2{
+    text-decoration: none;
+    
+}
+.Lorem{
+    color:aliceblue;
+    padding: 50px;
+}
+
+
+
+
+
+
